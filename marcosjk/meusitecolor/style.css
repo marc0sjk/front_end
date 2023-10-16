@@ -1,0 +1,38 @@
+body {
+    background: linear-gradient(130deg,#53ac59 5%, #0f684b 5% 10%, #53ac59 10% 15%, #0f684b 15% 20%, #53ac59 20% 25%, #0f684b 25% 30%, #53ac59 30% 35%, #0f684b 35% 40%, #53ac59 40% 45%, #0f684b 45% 50%, #53ac59 50% 55%, #0f684b 55% 60%,#53ac59 60% 65%, #0f684b 65% 70%, #53ac59 70% 75%,#0f684b 75% 80%, #53ac59 80% 85%, #0f684b 85% 90%, #53ac59 90% 95%, #0f684b 95% 100%);
+}
+#sobremim {
+    font-family: 'Concert One', sans-serif;
+    font-size: 20px;
+    margin: 1%
+}
+table {
+    margin: 1%
+}
+hr {
+    width: 47% ;
+    border: 3px solid rgb(19, 19, 19);
+    border-radius: 3px;
+    margin: 1%
+}
+.titulos {
+    font-family: 'Concert One', sans-serif;
+    display: inline-block;
+    border-radius: 20px;
+    background-color: #03484c;
+    padding: 10px ;
+    margin: 1%;
+}
+#roundimg {
+    border-radius: 50%;
+    border: 30px solid #ab8314;
+    margin-left: 1%;
+}
+.tabcateg {
+    font-family: 'Balsamiq Sans', sans-serif;
+    font-size: 20px;
+}
+.tabinfo {
+    background-color: #3b8952;
+    font-family: 'Balsamiq Sans', sans-serif;
+}
