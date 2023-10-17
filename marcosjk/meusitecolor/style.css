@@ -10,7 +10,6 @@ table {
     margin: 1%
 }
 hr {
-    width: 47% ;
     border: 3px solid rgb(19, 19, 19);
     border-radius: 3px;
     margin: 1%
@@ -20,7 +19,7 @@ hr {
     display: inline-block;
     border-radius: 20px;
     background-color: #03484c;
-    padding: 10px ;
+    padding: 10px;
     margin: 1%;
 }
 #roundimg {
@@ -35,4 +34,24 @@ hr {
 .tabinfo {
     background-color: #3b8952;
     font-family: 'Balsamiq Sans', sans-serif;
+}
+.header {
+    grid-area: header;
+}
+.sidenav {
+    grid-area: sidenav;
+}
+.content {
+    grid-area: main;
+}
+.footer {
+    grid-area: footer;
+}
+.container {
+    display: grid;
+    grid-template-columns: 50% 50% ;
+    grid-template-areas: "header header"
+                         "sidenav main"
+                         "footer footer"
+                                    ;                        
 }
