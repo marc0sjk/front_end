@@ -32,10 +32,12 @@ hr {
 .tabcateg {
     font-family: 'Balsamiq Sans', sans-serif;
     font-size: 20px;
+    color:#000000
 }
 .tabinfo {
     background-color: #3b8952;
     font-family: 'Balsamiq Sans', sans-serif;
+    color:#000000
 }
 .header {
     grid-area: header;
@@ -98,7 +100,13 @@ hr {
     top: 7%; 
     right: 4%;
   }
-
   .dark {
   background: linear-gradient(130deg,#1d4a44 5%, #0f2e26 5% 10%, #1d4a44 10% 15%, #0f2e26 15% 20%, #1d4a44 20% 25%, #0f2e26 25% 30%, #1d4a44 30% 35%, #0f2e26 35% 40%, #1d4a44 40% 45%, #0f2e26 45% 50%, #1d4a44 50% 55%, #0f2e26 55% 60%,#1d4a44 60% 65%, #0f2e26 65% 70%, #1d4a44 70% 75%,#0f2e26 75% 80%, #1d4a44 80% 85%, #0f2e26 85% 90%, #1d4a44 90% 95%, #0f2e26 95% 100%);
-  }
+}
+.dtitle {
+color:#ffffff
+}
+.dtab {
+font-family: 'Balsamiq Sans', sans-serif;
+color:#ffffff
+}
