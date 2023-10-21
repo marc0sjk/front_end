@@ -51,14 +51,7 @@ hr {
 .footer {
     grid-area: footer;
 }
-.container {
-    display: grid;
-    grid-template-columns: 50% 50% ;
-    grid-template-areas: "header header"
-                         "sidenav main"
-                         "footer footer"
-                                    ;                        
-}
+
 @media screen and (max-width: 620px) {
      .container {
     display: flex;

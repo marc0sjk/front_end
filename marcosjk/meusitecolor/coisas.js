@@ -10,7 +10,6 @@ let imgbord = document.getElementById("roundimg")
 button.addEventListener("click",()=> {
      fundopag.classList.toggle("dark")
      imgbord.classList.toggle("dimgborder")
-
      dtbcat.forEach((coisa) =>{
           coisa.classList.toggle("dtab")
      })
