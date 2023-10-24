@@ -1,0 +1,33 @@
+body{
+    background: linear-gradient(230deg,#88c100,#ff003c,#ff8a00,#88c100,#ff003c,#ff8a00,#88c100,#ff003c,#ff8a00,#88c100,#ff003c,#ff8a00);
+width: 100vw;
+height: 100vh;
+}
+.titulo {
+    display: flex;
+    background-color: #b4df37;
+    color: rgb(52, 158, 52);
+    border-radius: 10px;
+    font-family: "Happy Monkey";
+    font-size: 25px;
+    justify-content: center
+}
+.opções {
+    justify-content: space-around;  
+    
+}
+#macacoselfie {
+    width: 150px;
+    border: 20px solid #646464;
+    position: absolute;
+    top: 150px;
+    left: 30px
+    }
+li a {
+    color:#000000;
+    background-color: #fabe28;
+    border-radius: 70%;
+    font-size: 20px;
+    display: inline-block;
+    text-decoration: none;
+}
