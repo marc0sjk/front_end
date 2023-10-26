@@ -1,6 +1,6 @@
 body {
     background: linear-gradient(130deg,#53ac59 5%, #0f684b 5% 10%, #53ac59 10% 15%, #0f684b 15% 20%, #53ac59 20% 25%, #0f684b 25% 30%, #53ac59 30% 35%, #0f684b 35% 40%, #53ac59 40% 45%, #0f684b 45% 50%, #53ac59 50% 55%, #0f684b 55% 60%,#53ac59 60% 65%, #0f684b 65% 70%, #53ac59 70% 75%,#0f684b 75% 80%, #53ac59 80% 85%, #0f684b 85% 90%, #53ac59 90% 95%, #0f684b 95% 100%);
-}
+  }
 #sobremim {
     font-family: 'Concert One', sans-serif;
     font-size: 20px;
@@ -37,7 +37,7 @@ hr {
 .tabinfo {
     background-color: #3b8952;
     font-family: 'Balsamiq Sans', sans-serif;
-    color:#000000
+    color:#000000;
 }
 .header {
     grid-area: header;
@@ -46,12 +46,18 @@ hr {
     grid-area: sidenav;
 }
 .content {
-    grid-area: main
+    grid-area: main;
 }
 .footer {
     grid-area: footer;
 }
 
+.container {
+  display:grid;
+  grid-template-areas: "header header"
+                       "sidenav main"
+                       "footer footer";
+}
 @media screen and (max-width: 620px) {
      .container {
     display: flex;

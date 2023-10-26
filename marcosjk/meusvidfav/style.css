@@ -10,7 +10,8 @@ height: 100vh;
     border-radius: 10px;
     font-family: "Happy Monkey";
     font-size: 25px;
-    justify-content: center
+    justify-content: center;
+    padding: 10px;
 }
 .opções {
     justify-content: space-around;  
@@ -21,13 +22,40 @@ height: 100vh;
     border: 20px solid #646464;
     position: absolute;
     top: 150px;
-    left: 30px
+    right: 30px
     }
 li a {
     color:#000000;
     background-color: #fabe28;
     border-radius: 70%;
+    background-size: 5px;
     font-size: 20px;
     display: inline-block;
     text-decoration: none;
+    font-family: "Happy Monkey";
+    padding: 5px;
+}
+#pe {
+    font-family:"Happy Monkey";
+    font-size: 23px;
+    text-align: center;
+}
+.header {
+    grid-area: header;
+}
+.sidenav {
+    grid-area: sidenav;
+}
+.content{
+grid-area: main;
+}
+.footer {
+    grid-area: footer;
+}
+
+.container {
+    display: grid;
+    grid-template-areas: "header header"
+                         "sidenav main"
+                          "footer footer";
 }
