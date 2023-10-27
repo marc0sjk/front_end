@@ -42,12 +42,12 @@
     width: 100%;
   }
   
-  .question {
+  #question {
     /*  color: ; */
     font-size: 18px;
     margin: 20px 0;
   }
-  .option {
+  #option {
     display: flex;
     align-items: center;
     height: 40px;
