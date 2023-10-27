@@ -22,9 +22,13 @@ function showQuestion() {
     // Exiba a .questionArea
     
     // Insira em .question o valor da questão
+
     // Defina .options como ""
+
     // Crie uma let optionsHtml para o texto das opções
+
     // Faça um laço em q.options e defina o valor da optionHtml com `<div data-op="${i}" class="option"><span>${parseInt(i) + 1}</span>${q.options[i]}</div>`
+    
     // Insira optionsHtml em .options
 
     document.querySelectorAll(".options .option").forEach((item) => {
@@ -40,7 +44,7 @@ function optionClickEvent(e) {
   // Se a resposta clicada foi a correta, incremente a variável correctAnswers
   // Incremente a variável currentQuestion
   // Chame a função showQuestion
-}
+} 
 
 function finishQuiz() {
   // Criar variável de pontos baseado na divisão entre respostas corretas e quantidade de questões. Use a função Math.floor para arredondar.
