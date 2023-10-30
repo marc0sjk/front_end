@@ -1,5 +1,10 @@
 body {
-    font-family: "Arial", sans-serif;
+  font-family: 'Varela Round', sans-serif;
+  background-color:#ef2b41;
+  color:#11130e ;
+  position: fixed;
+  max-width: auto;
+  width: 70%;
   }
   
   section {
@@ -7,9 +12,9 @@ body {
   }
   
   footer {
-    position: fixed;
+    position: relative;
     left: 0;
-    bottom: 0;
+    bottom: -300px;
     margin-bottom: 10px;
     width: 100%;
     text-align: center;
@@ -19,17 +24,25 @@ body {
   .game--container {
     display: grid;
     grid-template-columns: repeat(3, auto);
+    border:2px solid #ffffff;
     width: 306px;
     margin: 50px auto;
+
   }
   
   .cell {
-    font-family: "Permanent Marker", cursive;
+    font-family: 'Varela Round', sans-serif;
+    color: #11130e;
     width: 100px;
     height: 100px;
-    box-shadow: 0 0 0 1px #333333;
-    border: 1px solid #333333;
+    box-shadow: 0 0 0 1px #ffffff;
+    border: 2px solid #ffffff;
     cursor: pointer;
     line-height: 100px;
     font-size: 60px;
   }
+
+  @media screen and (max-width: 480px) {
+
+  }
+  
