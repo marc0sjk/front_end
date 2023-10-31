@@ -2,9 +2,7 @@ body {
   font-family: 'Varela Round', sans-serif;
   background-color:#ef2b41;
   color:#11130e ;
-  position: fixed;
   max-width: auto;
-  width: 70%;
   }
   
   section {
@@ -40,9 +38,5 @@ body {
     cursor: pointer;
     line-height: 100px;
     font-size: 60px;
-  }
-
-  @media screen and (max-width: 480px) {
-
   }
   
