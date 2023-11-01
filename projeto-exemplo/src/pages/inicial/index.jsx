@@ -1,4 +1,5 @@
-import React from "react";  
+import Card from "../../componentes/card"
+
 function Inicial () {
     return (
         <div>

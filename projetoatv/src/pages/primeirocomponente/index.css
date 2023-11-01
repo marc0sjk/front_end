@@ -1,0 +1,6 @@
+body {
+    background: linear-gradient(90deg,#991766 25%, #d90f5a 25% 50%, #f34739 50% 75%, #ff6e27 75% 100%);
+}
+.geral {
+    font-family: 'Sometype Mono', monospace;
+}

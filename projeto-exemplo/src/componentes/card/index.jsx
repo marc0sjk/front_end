@@ -1,3 +1,4 @@
+import "./index.css";
 const Card = ({title, content}) => {
     return(
         <article className="card">
@@ -10,3 +11,4 @@ const Card = ({title, content}) => {
         </article>
     );
 };
+export default Card;
