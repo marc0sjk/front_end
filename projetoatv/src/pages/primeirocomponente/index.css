@@ -3,4 +3,11 @@ body {
 }
 .geral {
     font-family: 'Sometype Mono', monospace;
+    font-size: 130%;
+    text-align: center;
+}
+.img {
+    width: 350px;
+    border: 10px solid #66324c;
+    align-items: center;
 }
