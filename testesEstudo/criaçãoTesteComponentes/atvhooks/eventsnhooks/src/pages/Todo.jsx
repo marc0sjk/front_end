@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import '../components/list/index'
 const Todo = () => {
   const [task, setTask] = useState("");
   const [itemsList, setItemsList] = useState([]);
